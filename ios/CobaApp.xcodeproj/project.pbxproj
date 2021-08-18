@@ -14,6 +14,9 @@
 		235C3EC79E52C82C50A18942 /* libPods-CobaApp-CobaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D418CCB64D9BA0DE9D542519 /* libPods-CobaApp-CobaAppTests.a */; };
 		4DB03D4DDCB5C9C32EC5A235 /* libPods-CobaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 142166F062415CD4E7F041B2 /* libPods-CobaApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9825ACAF48414AA7A3350D58 /* Klasik Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6336F4B71DCA439A9437DBAA /* Klasik Regular.otf */; };
+		68DD43984E684D7686FF0B0B /* Klasik Rough.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2B958F0D4ED4ACFB35D8DB7 /* Klasik Rough.otf */; };
+		0D5CA2A31C794D6B8B9EEC9A /* Klasik Shadow.otf in Resources */ = {isa = PBXBuildFile; fileRef = 872EE9442CFA4634AE301D04 /* Klasik Shadow.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D418CCB64D9BA0DE9D542519 /* libPods-CobaApp-CobaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CobaApp-CobaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEA668A1E11246363E33AF4 /* Pods-CobaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaApp.debug.xcconfig"; path = "Target Support Files/Pods-CobaApp/Pods-CobaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6336F4B71DCA439A9437DBAA /* Klasik Regular.otf */ = {isa = PBXFileReference; name = "Klasik Regular.otf"; path = "../assets/fonts/Klasik Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2B958F0D4ED4ACFB35D8DB7 /* Klasik Rough.otf */ = {isa = PBXFileReference; name = "Klasik Rough.otf"; path = "../assets/fonts/Klasik Rough.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		872EE9442CFA4634AE301D04 /* Klasik Shadow.otf */ = {isa = PBXFileReference; name = "Klasik Shadow.otf"; path = "../assets/fonts/Klasik Shadow.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				27D4027061F98B776A4A7D17 /* Pods */,
+				5666528FF8884138A1CF2FCB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +155,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		5666528FF8884138A1CF2FCB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				6336F4B71DCA439A9437DBAA /* Klasik Regular.otf */,
+				D2B958F0D4ED4ACFB35D8DB7 /* Klasik Rough.otf */,
+				872EE9442CFA4634AE301D04 /* Klasik Shadow.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +263,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9825ACAF48414AA7A3350D58 /* Klasik Regular.otf in Resources */,
+				68DD43984E684D7686FF0B0B /* Klasik Rough.otf in Resources */,
+				0D5CA2A31C794D6B8B9EEC9A /* Klasik Shadow.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

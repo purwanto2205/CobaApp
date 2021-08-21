@@ -1,6 +1,6 @@
 import {useDispatch} from 'react-redux';
 import React, {useState} from 'react';
-import {View, Image, TouchableOpacity} from 'react-native';
+import {View, Text, Image, TouchableOpacity, StatusBar} from 'react-native';
 
 import {APP_ACTION} from '../../actions';
 import {Images} from '../../../assets';
@@ -9,6 +9,7 @@ import {MyText} from '../../components';
 import styles from './on-boarding.style';
 
 import dataJson from './data.json';
+import {Colors} from '../../styles';
 
 const OnBoarding = ({navigation}) => {
   const dispatch = useDispatch();
@@ -33,6 +34,7 @@ const OnBoarding = ({navigation}) => {
 
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="light-content" backgroundColor={Colors.White} />
       <ContentSlide index={currentIndex} />
       <View style={styles.sliderContainer}>
         <TouchableOpacity onPress={onPressSkip}>
@@ -85,9 +87,9 @@ const ContentSlide = ({index}) => {
   return (
     <View style={styles.flex1}>
       <View style={styles.contentSlide}>
-        <MyText textAlign="center" color="#573353" size={25}>
+        <Text style={styles.textKlasik} textAlign="center">
           {handleText()}
-        </MyText>
+        </Text>
         <Image source={handleImage()} style={styles.illustrationImage} />
         <MyText textAlign="center" color="#573353" size={17}>
           We can{' '}

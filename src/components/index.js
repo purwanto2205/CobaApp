@@ -1,3 +1,4 @@
 import MyText from './text';
+import Container from './container';
 
-export {MyText};
+export {MyText, Container};

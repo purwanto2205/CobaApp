@@ -46,4 +46,10 @@ export default StyleSheet.create({
   flex1: {
     flex: 1,
   },
+  textKlasik: {
+    fontFamily: 'Klasik Regular',
+    color: '#573353',
+    fontSize: 25,
+    textAlign: 'center',
+  },
 });
